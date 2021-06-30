@@ -52,7 +52,12 @@ INSERT INTO dataSensus SET Nama_Kota = 'Palembang', Kecamatan = 14, Kelurahan = 
 
 ### 4. Buat tabel kedua dengan menggunakan struktur yang sama dengan tabel pertama. Artinya, akan ada 2 tabel: Tabel pertama yang sudah berisi data (yang kita buat berdasarkan soal 1 - 3), dan tabel kedua yang belum berisi data. Struktur tabel pertama dan kedua ini sama persis, dimana sama-sama terdiri dari 5 kolom.
 ```mysql
-CREATE TABLE dataSensus2(Nama_Kota VARCHAR(255),Kecamatan INT,Kelurahan INT,Luas_Wilayah VARCHAR(255),Jumlah_Penduduk BIGINT);
+CREATE TABLE dataSensus2(
+	Nama_Kota VARCHAR(255),
+	Kecamatan INT,Kelurahan INT,
+	Luas_Wilayah VARCHAR(255),
+	Jumlah_Penduduk BIGINT
+);
 ```
 
 ![Nomor4](Nomor4.PNG)
